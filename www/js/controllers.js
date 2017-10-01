@@ -15,5 +15,10 @@ angular.module('starter.controllers', [])
 .controller('AccountCtrl', function($scope) {
 });
 
-
+app.controller('Controller_Name', function($state, $scope)
+{
+  $scope.go_to_another_page = function(){
+    $state.go('state_name');
+}
+})
 

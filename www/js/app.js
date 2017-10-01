@@ -77,6 +77,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     });
 
+    app.state('state_name', {
+      cache: false,
+      url: '/account',
+      views: {
+      templateUrl:'templates/tab-dash.html',
+      controller:'Controller_Name'}
+     });
+    
+
+
+   
+
   
    
 
