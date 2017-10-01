@@ -1,4 +1,4 @@
-
+angular.module('starter.services', [])
 // const https = require("https");
 // const url =
 // "https://api.cloud4wi.com/v2/users/findById?id=0d5d0abcc57f77b7080ab41d86070b4c&api_version=v2.0&api_key=f708a3bb62b655ed4217a582bb01d0aa%20&api_secret=232c22e0229ac4b74605e00ff2f672d7";
