@@ -1,5 +1,6 @@
 angular.module('starter.controllers', [])
 
+
 .controller('DashCtrl', function($scope) {
 })
 
@@ -14,6 +15,14 @@ angular.module('starter.controllers', [])
 
 .controller('AccountCtrl', function($scope) {
 });
+
+.controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
+  
+    $scope.go = function ( path ) {
+      $location.path( path );
+    };
+   
+  });
 
 
 
